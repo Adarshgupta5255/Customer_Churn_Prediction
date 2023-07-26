@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Churn Telecom Predection</title>
+</head>
+<body>
+    <h1>Churn Telecom Predection</h1>
+    {% if result %}
+        <p>{{  result}}</p>
+    {% endif %}
+
+    <form method="post" action="/predict">
+        <label >A</label><br>
+        <input type="float" name="A"><br>
+
+        <label >B</label><br>
+        <input type="float" name="B"><br>
+
+        <label >C</label><br>
+        <input type="float" name="C"><br>
+
+        <label >D</label><br>
+        <input type="float" name="D"><br>
+
+        <label >E</label><br>
+        <input type="float" name="E"><br>
+
+        <label >F</label><br>
+        <input type="float" name="F"><br>
+
+        <label >G</label><br>
+        <input type="float" name="G"><br>
+
+        <label >H</label><br>
+        <input type="float" name="H"><br>
+
+        <label >I</label><br>
+        <input type="float" name="I"><br>
+
+        <label >J</label><br>
+        <input type="float" name="J"><br>
+
+        <label >K</label><br>
+        <input type="float" name="K"><br>
+
+        <input type="submit" value="Predict"> <br>
+    </form>
+</body>
+</html>
